@@ -57,11 +57,12 @@ description: 브라우저 동작 원리와 중요 렌더링 경로(Critical Rend
    4. DNS query 를 날려서 recursor가 root name server -> top-level domains(.com) -> second-level domains(google.com) -> third-lever domains(www.google.com) 재귀적으로 찾아서 반환한다.
    5. 이때 Routing table을 통해 서버까지 어떤 경로로 갈지 결정하고, IP 주소 획
 2. TCP/IP
-   * 3 way handshaking
+   * TCP: 연결 지향적, 트래픽 흐름을 제어
+     * 3 way handshaking
 3. HTTP request
    * Header
    * Method
-   * 쿠
+   * 쿠키
 4. 서버에서 HTTP response&#x20;
    * 상태 코드
    * 캐시 방법(Cache-Control)
