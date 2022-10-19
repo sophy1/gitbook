@@ -28,8 +28,20 @@ description: React 16.8버전에 새로 추가된 기능
 
 | 이름         | 한 줄 설명                                                                |
 | ---------- | --------------------------------------------------------------------- |
-| useState   | state 관리 hook, 초기 값 인자로 받아, state와 state 업데이트 함수 반환          |
+| useState   | state 관리 hook, 초기 값 인자로 받아, 현재 state와 state 업데이트 함수 반환          |
 | useEffect  | rending 이후 실행해야할 작업 처리, componentDidMount, componentDidUpdate, componentWillUnmount가 실행되는 시점을 합한 개념 |
 | useContext | React context 객체를 인자로 받아, 그 context의 현재 값 반환, context는 전역 상태를 저장하고 있고, Context.Provider와 같이 사용 |
 
 ### 추가 Hooks
+
+
+| 이름         | 한 줄 설명                                                                |
+| ---------- | --------------------------------------------------------------------- |
+| useReducer | useState 보다 다양한 값으로 업데이트용 hook, reducer(현재 state, 업데이트를 위한 action 값 전달 받아 새로운 상태를 반환하는 함수)와 초기 값을 인자로 받음, 현재 state와 dispatch 함수(action을 발생시키는 함수) 반환 |
+| useMemo(iztion) | 렌더링 중에 dependency list의 특정 값이 변경되었을 때에만 메모이제이션된 값만 다시 연산을 실행하여 최적화, memoized value 반환 |
+| useCallback | 처음 렌더링 될때만 callback 함수 생성, 렌더링 중에 dependency list의 특정 값이 변경되었을 때에만 callback 함수 생성하여 함수 instnace 생성을 줄여서 최적화, memoized 함수 반환|
+| useRef | ref(특정 DOM element을 참조)를 설정하여, 반환된 객체의.current 값이 실제 element를 가리킨다. 렌더링과 과련없는 값을 관리할때 사용하기도 함 |
+| useImperativeHandle | ref를 사용할때 부모 component의 instance 값을 customize 용도. forwardRef와 함께 사용 |
+| useLayoutEffect | useEffect와 동일, 먼저 useEffect 써보고 안 되면, useLayoutEffect 사용. 모든 DOM 변경 후에 layout을 읽고 painting 전에 수행. |
+
+
