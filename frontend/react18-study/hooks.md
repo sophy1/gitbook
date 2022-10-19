@@ -28,6 +28,8 @@ description: React 16.8버전에 새로 추가된 기능
 
 | 이름         | 한 줄 설명                                                                |
 | ---------- | --------------------------------------------------------------------- |
-| useState   |                                                                       |
-| useEffect  | rending 이후 작 componentDidMount와 componentDidUpdate, 채가 실행되는 시점을 합한 개념 |
-| useContext |                                                                       |
+| useState   | state 관리 hook, 초기 값 인자로 받아, state와 state 업데이트 함수 반환          |
+| useEffect  | rending 이후 실행해야할 작업 처리, componentDidMount, componentDidUpdate, componentWillUnmount가 실행되는 시점을 합한 개념 |
+| useContext | React context 객체를 인자로 받아, 그 context의 현재 값 반환, context는 전역 상태를 저장하고 있고, Context.Provider와 같이 사용 |
+
+### 추가 Hooks
