@@ -48,14 +48,14 @@ description: 브라우저 동작 원리와 중요 렌더링 경로(Critical Rend
 {% endtab %}
 
 {% tab title=" Networking" %}
-브라우저 모듈과 관련이 없지만, HTTP request 발생시 네트워크에 대한 간단한 이&#x20;
+브라우저 모듈과 관련이 없지만, HTTP request 발생시 네트워크에 대한 간단한 이해 과정
 
 1. DNS를 통해 서버 IP 주소를 얻는다.
    1. 먼저 브라우저의 DNS cache에서 찾는다.
    2. 없으면 OS cache (hosts 파일)에서 찾는다.
    3. Router cache, ISP(Internet Service Provider) cache 에서 찾는다.
    4. DNS query 를 날려서 recursor가 root name server -> top-level domains(.com) -> second-level domains(google.com) -> third-lever domains(www.google.com) 재귀적으로 찾아서 반환한다.
-   5. 이때 Routing table을 통해 서버까지 어떤 경로로 갈지 결정하고, IP 주소 획
+   5. 이때 Routing table을 통해 서버까지 어떤 경로로 갈지 결정하고, IP 주소 획득한다.
 2. TCP/IP
    * TCP: 연결 지향적, 트래픽 흐름을 제어
      * 3 way handshaking
@@ -78,7 +78,7 @@ description: 브라우저 동작 원리와 중요 렌더링 경로(Critical Rend
 
 ### 중요 렌더링 경로(Critical Rendering Path, CRP)
 
-1.
+
 
 ###
 
