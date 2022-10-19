@@ -14,4 +14,17 @@
 * 컨테이너 엔진 위에 컨테이너가 수없이 증가함에 따라, 오케스트레이션 툴을 사용하여 관리
 * 컨테이너 오케스트레이션 툴 (k8s, Docker Sarm, Apache mesos..)
   * 자동화된 컨테이너의 배포, 관리, 확장 네트워킹 기능 제공
-  * k8s는 수 많은 컨테이너를 논리적인 단위로 그룹핑, 통합 관리할 수 있는 기능 제
+  * k8s는 수 많은 컨테이너를 논리적인 단위로 그룹핑, 통합 관리할 수 있는 기능 제공
+  * k8s namespace 에 대한 배포 정의를 위해 폴더 구조와 manifest파일이 생성되면, 거기에 나는 application.yaml 파일로 설정 관리 및 유지 보수
+
+#### 파이프라인 동작 과정
+
+1. \[개발] branch에 GitHub 코드 커밋
+2. Jenkins에 등록한 job 시작
+   1. base image에서 Git clone
+   2. 소스코드 build, test => \[개발자] build/test fail이면 PR 페이지에 등록되거나 메일이 옴..&#x20;
+   3. 생성된 image 를 이미지 저장소에 push
+3. 해당 k8s namespace의 배포 정의서(groovy 파일)에 따라서 등록된 image를 k8s에 배포
+   1. argoCD에서 sync 버튼을 누르거나 auto-sync면 pod이 새로 생성되면서 배포
+   2. \[개발자] pod의 상태와 log를 확인한다.&#x20;
+
