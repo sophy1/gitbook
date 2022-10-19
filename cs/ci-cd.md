@@ -19,7 +19,9 @@
 
 #### 파이프라인 동작 과정
 
-1. \[개발] branch에 GitHub 코드 커밋
+> 단위 개발 환경에 커밋 전에 k8s 설정이 올바른지, DDL/DML 쿼리 실행했는지 확인
+
+1. \[개발자] branch에 GitHub 코드 커밋
 2. Jenkins에 등록한 job 시작
    1. base image에서 Git clone
    2. 소스코드 build, test => \[개발자] build/test fail이면 PR 페이지에 등록되거나 메일이 옴..&#x20;
