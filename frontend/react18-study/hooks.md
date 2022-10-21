@@ -52,6 +52,7 @@ description: React 16.8버전에 새로 추가된 기능
      3. context를 이용하면 단계마다 일일이 props를 넘겨주지 않고도 컴포넌트 트리 전체에 데이터를 제공
    * example ([https://www.w3schools.com/react/react\_usecontext.asp](https://www.w3schools.com/react/react\_usecontext.asp))
 
+{% code overflow="wrap" %}
 ```jsx
 import { useState, createContext, useContext } from "react";
 import ReactDOM from "react-dom/client";
@@ -113,6 +114,7 @@ function Component5() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Component1 />);
 ```
+{% endcode %}
 
 * useContext를 호출한 컴포넌트는 \<MyContext.Provider>의 인자로 전달된 업데이트된 context 값이 변경되면 항상 리렌더링 된다.
 * 컴포넌트를 리렌더링 하는 것에 비용이 많이 든다면, 메모이제이션을 사용하여 최적화할 수 있다.
