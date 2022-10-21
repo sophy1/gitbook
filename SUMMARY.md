@@ -28,7 +28,7 @@
   * [Basic](frontend/react18-study/basic.md)
   * [State](frontend/react18-study/state.md)
   * [Event handling](frontend/react18-study/event-handling.md)
-  * [Form](frontend/react18-study/form.md)
+  * [Forms](frontend/react18-study/forms.md)
   * [LifeCycle](frontend/react18-study/lifecycle.md)
   * [Hooks](frontend/react18-study/hooks.md)
   * [Redux](frontend/react18-study/redux.md)
