@@ -140,11 +140,11 @@ root.render(<Component1 />);
 3. <mark style="color:green;">**useCallback: 처음 렌더링 될때만 callback 함수 생성, 렌더링 중에 특정 함수를 재사용!**</mark>** ** dependency list의 특정 값이 변경되었을 때에만 callback 함수 생성하여 함수 instnace 생성을 줄여서 최적화, memoized 함수 반환
    * useMemo Hook을 함수에 맞춰서 변형한 hook
 4. useRef: ref(특정 DOM element을 참조)를 설정하여, 반환된 객체의.current 값이 실제 element를 가리킨다. 렌더링과 관련없는 값을 관리할때 사용하기도 함
-5. useLayoutEffect: useEffect와 동일, 먼저 useEffect 써보고 안 되면, useLayoutEffect 사용. 모든 DOM 변경 후에 layout을 읽고 painting 전에 수행.
+5. <mark style="color:green;">**useLayoutEffect:**</mark> useEffect와 동일, 먼저 useEffect 써보고 안 되면, useLayoutEffect 사용. 모든 DOM 변경 후에 layout을 읽고 painting 전에 수행.
 
 
 
-UseMemo example Code
+#### UseMemo example Code
 
 ```jsx
 // 성능 최적화를 위하여 연산된 값을 useMemo라는 Hook 을 사용하여 재사용하는 방법을 알아보도록 하겠습니다.
@@ -167,6 +167,54 @@ export default function Hooks() {
   const count = useMemo(() => countActiveUsers(users), [users]);
 ```
 
+#### useRef example code
 
+```jsx
+import React, { useRef, useEffect } from "react";
+ 
+function CreateUser({ username, email, onChange, onCreate }) {
+  // useRef()를 사용하여 Ref객체를 만들고, 이 객체를 우리가 선택하고 싶은 DOM element에 ref값으로 설정
+  // Ref 객체의 .current 값은 우리 원하는 DOM을 가리킨다
+  const nameInput = useRef();
+  useEffect(() => {
+    // input에 focus하는 focus() DOM API 호출
+    // nameInput.current.focus();
+    nameInput.current.focus();
+  }, []);
+```
+
+```jsx
+export default function Hooks() {
+  // Ch1-section12: useRef로 컴포넌트 안의 변수 만들기
+  // useRef Hook은 DOM 선택 이외에도, 컴포넌트 안에서 조회, 수정할 수 있는 (렌더링과 관련없는) 변수를 관리하는 것
+  // 예를 들어, useRef로 관리하는 nextId의 용도는 배열에 새 항목을 추가할때, 새 항목에서 사용할 고유 id를 관리하는 용도
+  // userRef의 파라미터 값은 이 값이 .current 값의 기본 값이며 수정, 조회 가능
+  const nextId = useRef(4);
+  const [users, setUsers] = useState(mockUsers);
+   
+  useEffect(() => {
+    console.log('컴포넌트가 화면에 나타남');
+    return () => {
+      console.log('컴포넌트가 화면에서 사라짐');
+    };
+  }, []);
+ 
+  const onCreate = () => {
+    // useState for users
+    const newUser = {
+        id: nextId.current,
+        username,
+        email
+    };
+    //setUsers(users.concat(newUser));
+    setUsers([...users, newUser]);
+    console.log(users);
+    setInputs({
+      username: "",
+      email: ""
+    });
+    nextId.current += 1;
+  };
+```
 
 ****
