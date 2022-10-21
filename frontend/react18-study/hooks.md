@@ -220,3 +220,10 @@ export default function Hooks() {
 ```
 
 ****
+
+### FAQ <a href="#reacthooks-faq" id="reacthooks-faq"></a>
+
+* [https://ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables](https://ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables)
+* [https://ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies](https://ko.reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies)
+* [https://ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables](https://ko.reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables)
+* [https://tech-people.github.io/2019/12/29/react-hooks-chapter02/](https://tech-people.github.io/2019/12/29/react-hooks-chapter02/)
