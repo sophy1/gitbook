@@ -34,7 +34,7 @@
 
 어떤 도구가 있는지 보자.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
 
 기존 npm 과 사용 방법이 유사하고 단순 코드 공유 수준의 관리만 필요했기 때문에 yarn workspace 선택
 

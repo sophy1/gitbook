@@ -10,7 +10,7 @@ description: React 16.8버전에 새로 추가된 기능
 
 함수형 컴포넌트에서도 사용할 수 있게 상태 관리와 lifeCycle method(props, state, context, refs, lifecycle)에 대해 직관적인 API 제공
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### [등장배경](https://ko.reactjs.org/docs/hooks-intro.html)
 
