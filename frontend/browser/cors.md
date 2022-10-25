@@ -10,7 +10,7 @@ description: 교차 출처 리소스 공유(Cross-Origin Resource Sharing, CORS)
 
 #### 기본 개념
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>출처: <a href="https://blogpack.tistory.com/m/105">https://blogpack.tistory.com/m/105</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>출처: <a href="https://blogpack.tistory.com/m/105">https://blogpack.tistory.com/m/105</a></p></figcaption></figure>
 
 * Origin
   * URL에서 protocol(scheme), host(domain), port 를 합친 부분
