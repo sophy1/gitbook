@@ -10,11 +10,9 @@ description: React 16.8버전에 새로 추가된 기능
 
 함수형 컴포넌트에서도 사용할 수 있게 상태 관리와 lifeCycle method(props, state, context, refs, lifecycle)에 대해 직관적인 API 제공
 
-
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### [등장배경](https://ko.reactjs.org/docs/hooks-intro.html)
-
-
 
 * 기존 클래스형 컴포넌트에서 공통 로직을 적용해야 한다면 render props 또는 HOC를 사용해야 하는데, 여러 컴포넌트가 겹치는 경우 wraper hell (component tree depth가 길어짐) 초래하고 코드 추적이 어려워진다.
   * [HOC(High Order Component)](https://ko.reactjs.org/docs/higher-order-components.html): 재사용 가능한 로직을 분리하여 컴포넌트(wrapper)로 만들고, 재사용 불가능한 부분은 wrapped component를 파라미터로 받아서 처리
