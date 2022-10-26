@@ -34,13 +34,13 @@
 
 어떤 도구가 있는지 보자.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
 
 기존 npm 과 사용 방법이 유사하고 단순 코드 공유 수준의 관리만 필요했기 때문에 yarn workspace 선택
 
 #### [&#xD; ](https://d2.naver.com/helloworld/7553804)어떤 도구를 많이 사용하나?
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>출처: <a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">https</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">://</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">2021.stateofjs.com/en-US/libraries/monorepo-tools</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>출처: <a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">https</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">://</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">2021.stateofjs.com/en-US/libraries/monorepo-tools</a></p></figcaption></figure>
 
 
 
@@ -143,7 +143,7 @@ $ yarn workspaces run test
 
 Multirepo 와의 차이점
 
-Enterprise급은 아니고, 백오피스용(비지니스 로직, API 호출 정도로만 다른?)
+Enterprise급은 아니고, 백오피스용(비지니스 로직, API 호출 정도로만 다른?) 프로젝트 구조 전략 방
 
 ### Ref
 

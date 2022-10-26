@@ -8,7 +8,7 @@ App을 실행하는 환경은 Node.js, 브라우저 등 다양한 런타임 환�
 
 여기서는 ES6 모듈에 대해서만 알아보고, 직접 사용 예를 살펴보기로 한다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>출처: <a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/">https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>출처: <a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/">https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/</a></p></figcaption></figure>
 
 ### 여러 객체/값을 내보내고 불러오는  방법(Named exports)
 
