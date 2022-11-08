@@ -68,7 +68,7 @@ Basic
 
 /* 변수 사용법 */
 .contact a:hover { color: var(--primary-color); }
-.code-wrap { border: 1px solid var (--ui07); }
+.code-wrap { border: 1px solid; }
 
 /* 재정의 */
 @media (max-width: 768px) {
@@ -80,3 +80,24 @@ Basic
 
 #### Rendering engine (브라우저 호환성, 크로스브라우징)
 
+```css
+
+header .menu-inner ul {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/*
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar
+ */
+.tab nav::-webkit-scrollbar {
+  display: none;
+}
+
+```
