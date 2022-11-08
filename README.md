@@ -6,7 +6,7 @@ description: 뭐든 꾸준히 하자!
 
 Theory is when you know everything but nothing works.
 
-Practice is when you evertything works but no one knows why.
+Practice is when you everything works but no one knows why.
 
 In this page, theory and practice are combined: Nothing works and no one knows why.
 
