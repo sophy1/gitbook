@@ -81,6 +81,7 @@ Basic
 #### Rendering engine (브라우저 호환성, 크로스브라우징)
 
 ```css
+/* CSS prefix (-moz, -webkit, -ms)*/
 
 header .menu-inner ul {
   display: flex;
@@ -99,5 +100,8 @@ header .menu-inner ul {
 .tab nav::-webkit-scrollbar {
   display: none;
 }
-
+.card-list {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
 ```
