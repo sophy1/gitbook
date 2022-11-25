@@ -20,12 +20,20 @@ description: https://reactrouter.com/en/main/start/overview
     * index.html 초기 렌더링 화면에는 root element만  있기 때문에  SEO에도 좋지 않다.
 
 > 예전에 FE framework 사용 안하고 SPA 구현시에는 location의 hash(anchor) 값에 대한 change handler를 통해서 화면을 그려줬다.&#x20;
+>
+> [Vue.js routes](https://v3.router.vuejs.org/kr/guide/essentials/history-mode.html)에서는 history mode와 hash mode 가 있는데,  [React Router ](https://reactrouter.com/en/main/routers/create-hash-router)에서는 hash mode를 비추한다. 아무래도 hash mode에는 URL에 #이 붙어서 안 좋게 보이고 SEO 에도 좋지 않기 때문.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. react-router 적용 및 기본 사용법
 
+#### 2-1. 프로젝트에 라우터 적용
 
+#### 2-2. 페이지(routes) 컴포넌트 만들기
+
+#### 2-3. Route 컴포넌트로 특정 경로 매핑
+
+#### 2-4. Link 컴포넌트를 사용하여 다른 페이지로 이동하는 링크 만들기
 
 ### 3. URL 파라미터와 Query String&#x20;
 
