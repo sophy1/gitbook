@@ -35,8 +35,24 @@ description: https://reactrouter.com/en/main/start/overview
 
 #### 2-4. Link 컴포넌트를 사용하여 다른 페이지로 이동하는 링크 만들기
 
-### 3. URL 파라미터와 Query String&#x20;
+### 3. Path variable와 Query String&#x20;
+
+#### 3-1. Path variable(URL parameter)
+
+#### 3-2. Query String
 
 ### 4. Nested route
 
+#### 4-1. 중첩 라우트 사용 예
+
+#### 4-2. index props
+
 ### 5. react-router 부가 기능
+
+#### 5-1. useNavigate
+
+#### 5-2. NavLink 컴포넌트
+
+#### 5-3. NotFound 페이지 만들기
+
+#### 5-4. Navigate 컴포넌트
