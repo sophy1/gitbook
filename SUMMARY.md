@@ -5,8 +5,8 @@
 ## Language
 
 * [Java11](language/untitled.md)
-* [JS Basic](language/basic.md)
-* [ES6 modules](language/es6-modules.md)
+* [JS Basic](js/basic.md)
+* [ES6 modules](js/es6-modules.md)
 
 ## CS
 
@@ -21,7 +21,7 @@
 ## Frontend
 
 * [Experience](frontend/experience/README.md)
-  * [Mono repo 사용 후기](frontend/experience/mono-repo.md)
+  * [Mono repo 사용 후기](frontend/mono-repo.md)
 * [Browser](frontend/browser/README.md)
   * [동작 원리와 CRP](frontend/browser/crp.md)
   * [Browser Storage](frontend/browser/browser-storage.md)
