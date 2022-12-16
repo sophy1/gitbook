@@ -42,7 +42,3 @@
 ## Language
 
 * [Untitled](language/untitled.md)
-
-## 육아
-
-* [생활](undefined/undefined.md)

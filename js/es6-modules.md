@@ -38,7 +38,8 @@ export function draw(ctx, length, x, y, color) {
 
 const drawDoubleScale = function () { ... };
 
-export { drawDoubleScale };</code></pre>
+export { drawDoubleScale };
+</code></pre>
 
 * 여러 항목을 내보낼때 모듈 파일 끝에 하나의 export 문을 사용하는 것이 일반적이다.
 
@@ -84,7 +85,8 @@ import * as CONSTANTS from './constants.js';
 import * as Square from './modules/square.js';
 let square1 = Square.draw(myCanvas.ctx, 50, 50, 100, 'blue');
 Square.reportArea(square1.length, reportList);
-Square.reportPerimeter(square1.length, reportList);</code></pre>
+Square.reportPerimeter(square1.length, reportList);
+</code></pre>
 
 * 일부 모듈 시스템에서는 파일 확장명을 생략할 수 있다. 예를 들어, react에서는 컴포넌트를 import할때 js를 생략한다.
 
@@ -110,6 +112,7 @@ export default {
 // TooltipBox.js
 class TooltipBox {};
 export default TooltipBox;
+
 </code></pre>
 
 #### \`import\`로 namedExports랑 동일하게 가져오기!
@@ -154,7 +157,8 @@ import { Squre, Circle, Triangle } from './modules/shapes.js';
 ### Applying the module to  HTML code
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>// module로 선언하려면 HTML code에서 script element에 type="module" 추
-</strong><strong>&#x3C;script type="module" src="main.js">&#x3C;/script></strong></code></pre>
+</strong><strong>&#x3C;script type="module" src="main.js">&#x3C;/script>
+</strong></code></pre>
 
 일반 script와 module 의 차이
 
