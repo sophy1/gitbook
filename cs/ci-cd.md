@@ -25,11 +25,11 @@
   * 기존에 하이퍼바이저 기반 가상화에 비해 경량화됨
   * 개발자는 컨테이너 기반의 앱 개발하고, devops에서는 운영 및 image 배포를 담당
 
-> * 컨테이너 image 작성도 작성할 줄 알아야.. redii 컨테이너 이미지 저장소 PATH 오타 내지 말자
+> * 컨테이너 image 생성을 위한 Dockerfile 작성도 작성할 줄 알아야.. redii 컨테이너 이미지 저장소 PATH 오타 내지 말자
 > * 인프라 정보를 확인하여, branch-overlay 설정을 보고 branch를 생성하고 단위 개발환경에 앱을 배포하기 위해서 해당 branch에 development branch 와 동기화한다.
 > * 운영계에 배포하면, 해당 형상은 최대한 유지한다. 하지만 hotfix patch 작업은 자주 발생하지.. hotfix branch는 development branch에도 꼭 merge할 것
 
-* 컨테이너를 구동하고 관리하는 역할은 컨테이너 엔진( Docker, CRI-O, Containered)
+* 컨테이너를 구동하고 관리하는 역할은 컨테이너 엔진(Docker, CRI-O, Containered)
 * 컨테이너 엔진 위에 컨테이너가 수없이 증가함에 따라, 오케스트레이션 툴을 사용하여 관리
 * 컨테이너 오케스트레이션 툴 (k8s, Docker Swarm, Apache mesos..)
   * 자동화된 컨테이너의 배포, 관리, 확장 네트워킹 기능 제공
