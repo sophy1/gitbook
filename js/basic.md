@@ -2,7 +2,7 @@
 description: JavaScript 기본 개념
 ---
 
-# JS Basic
+# Basic
 
 ### 프로토타입, 프로토타입 체이닝, Class, 상속, 생성자
 
