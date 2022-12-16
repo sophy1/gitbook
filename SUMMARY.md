@@ -14,7 +14,7 @@
 * [REST API](cs/rest-api.md)
 * [보안](cs/undefined-1.md)
   * [XSS, CSRF](cs/undefined-1/xss-csrf.md)
-* [CI/CD](cs/ci-cd/README.md)
+* [CI/CD](cs/ci-cd.md)
   * [Docker](cs/ci-cd/docker.md)
 
 ## Frontend
