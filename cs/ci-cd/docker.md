@@ -26,7 +26,11 @@
 
 ### Dockerfile
 
+* 예를 들어, nginx 로 F/E 프로젝트 배포 이미지 생성
+
 ### docker-compose.yml
+
+* 예를 들어, redis 와 postgres 등 여러 container를 통합 관리
 
 ### Ref
 
