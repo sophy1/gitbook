@@ -5,7 +5,7 @@
 * 재사용하고자 하는 ui component repository를 모으기 위해 Git submodule 보다 쉬운 방법인 모노레포 발견
 * &#x20;모노레포: Git에서 두 개 이상의 프로젝트 코드가 동일한 repo에 저장되어, 서로 다른 프로젝트들을 관리하는 개발 전략
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;Pros & Cons 를 살펴보고, 얼마나 좋아지는지 계산해본다.
 
@@ -34,13 +34,13 @@
 
 어떤 도구가 있는지 보자.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt="https://d2.naver.com/helloworld/7553804"><figcaption><p>출처: <a href="https://d2.naver.com/helloworld/7553804">https://d2.naver.com/helloworld/7553804</a></p></figcaption></figure>
 
 기존 npm 과 사용 방법이 유사하고 단순 코드 공유 수준의 관리만 필요했기 때문에 yarn workspace 선택
 
 #### [&#xD; ](https://d2.naver.com/helloworld/7553804)어떤 도구를 많이 사용하나?
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>출처: <a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">https</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">://</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">2021.stateofjs.com/en-US/libraries/monorepo-tools</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>출처: <a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">https</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">://</a><a href="https://2021.stateofjs.com/en-US/libraries/monorepo-tools">2021.stateofjs.com/en-US/libraries/monorepo-tools</a></p></figcaption></figure>
 
 
 
