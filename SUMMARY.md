@@ -25,6 +25,8 @@
 ## Frontend
 
 * [What I have done](frontend/experience/README.md)
+  * [Image Viewer 기능 구현](frontend/what-i-have-done/image-viewer.md)
+  * [SPA 성능 최적화](frontend/what-i-have-done/spa.md)
   * [Mono repo 사용 후기](frontend/mono-repo.md)
 * [Browser](frontend/browser/README.md)
   * [동작 원리와 CRP](frontend/browser/crp.md)
