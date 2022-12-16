@@ -13,13 +13,13 @@
 
 * [Algorithm](cs/algorithm.md)
 * [Network](cs/network/README.md)
-  * [HTTP/2, HTTPS](cs/network/http-2-https.md)
+  * [HTTP/2, HTTPS](cs/http-2-https.md)
 * [CI/CD](cs/ci-cd.md)
   * [Docker](cs/ci-cd/docker.md)
   * [k8s](cs/ci-cd/k8s.md)
 * [보안](cs/undefined-1.md)
   * [XSS, CSRF](cs/undefined-1/xss-csrf.md)
-  * [인증과 권한](cs/undefined-1/undefined.md)
+  * [인증과 권한](cs/undefined.md)
 
 ## Frontend
 

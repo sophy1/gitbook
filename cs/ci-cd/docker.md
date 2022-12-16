@@ -1,9 +1,5 @@
 # Docker
 
-### Dockerfile
-
-### docker-compose.yml
-
 ### Command
 
 1. docker run: 컨테이너 이미지로 컨테이너 실행
@@ -27,6 +23,10 @@
      * docker 이미지 목록 조회
    * $ docker rmi my-docker-image
      * docker 이미지 삭제
+
+### Dockerfile
+
+### docker-compose.yml
 
 ### Ref
 
