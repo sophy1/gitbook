@@ -16,6 +16,7 @@
   * [HTTP/2, HTTPS](cs/http-2-https.md)
 * [CI/CD](cs/ci-cd.md)
   * [Docker](cs/ci-cd/docker.md)
+  * [Linux](cs/ci-cd/linux.md)
   * [k8s](cs/ci-cd/k8s.md)
 * [보안](cs/undefined-1.md)
   * [XSS, CSRF](cs/undefined-1/xss-csrf.md)
